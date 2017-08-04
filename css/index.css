@@ -1,0 +1,12 @@
+*{margin: 0;padding: 0;font: normal 15px "Microsoft Yahei"}
+.menu{background-color: #25B0B7;}
+.flex{margin: 0 auto;width: 1200px}
+ul,li{list-style: none}a{text-decoration: none}
+.main-nav li{display: inline-block}
+.main-nav a{display: inline-block;padding: 10px 12px;color: #fff}
+.main-nav li:hover{background-color: #66CCCA}
+.main-nav li:hover .sub-nav{display: block}
+.sub-nav{position: absolute;display: none;}
+.sub-nav li{display: block}
+.sub-nav a{background-color: #000;opacity: .6}
+.sub-nav a:hover{background-color: #25B0B7;opacity: 1;}
